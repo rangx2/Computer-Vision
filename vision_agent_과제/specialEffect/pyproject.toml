@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specialEffects"
+version = "1.0.0"
+description = "사진에 다양한 특수 효과를 적용할 수 있는 OpenCV 및 PyQt5 기반 GUI 프로그램"
+authors = [
+    { name = "김하랑", email = "2022101473@syuin.ac.kr" }
+]
+dependencies = [
+    "opencv-python",
+    "opencv-contrib-python",
+    "PyQt5",
+    "numpy"
+]
