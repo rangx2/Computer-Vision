@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panorama"
+version = "1.0.0"
+description = "웹캠을 사용하여 파노라마 영상을 제작하는 프로그램"
+authors = [
+    { name = "김하랑", email = "2022101473@syuin.ac.kr" }
+]
+dependencies = [
+    "opencv-python",
+    "PyQt5",
+    "numpy"
+]
